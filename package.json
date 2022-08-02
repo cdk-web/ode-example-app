@@ -1,0 +1,14 @@
+{
+  "name": "webassembly-studio-app",
+  "scripts": {
+    "start": "node server.js",
+    "eject-templates": "shx cp -R ./node_modules/webassembly-studio/templates public/templates"
+  },
+  "dependencies": {
+    "@cdk-web/ode": "^1.0.0-build.12778728514",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "shx": "^0.3.4"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "@wasm/empty_c",
+  "description": "",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "gulp --gulpfile ./build.ts"
+  },
+  "devDependencies": {
+    "@wasm/studio-utils": "*",
+    "gulp": "~3.9.1",
+    "ts-node": "~5.0.0",
+    "typescript": "~2.7.2"
+  },
+  "wasmStudio": {
+    "name": "Empty Python Project",
+    "description": "# Empty Python Project",
+    "icon": "python-lang-file-icon",
+    "applications": [
+      "applications/python.js"
+    ],
+    "actions": [
+      {
+        "label": "Deploy",
+        "command": "cdk deploy",
+        "icon": "GoRocket",
+        "index": 0
+      },
+      {
+        "label": "Deploy",
+        "command": "cdk deploy",
+        "icon": "GoRocket",
+        "index": 0
+      },
+      {
+        "icon": "GoRocket",
+        "label": "Share",
+        "title": "Share Project",
+        "onClick": "actions/share.js"
+      }
+    ]
+  }
+}
