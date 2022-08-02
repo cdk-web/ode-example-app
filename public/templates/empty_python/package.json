@@ -26,12 +26,6 @@
         "index": 0
       },
       {
-        "label": "Deploy",
-        "command": "cdk deploy",
-        "icon": "GoRocket",
-        "index": 0
-      },
-      {
         "icon": "GoRocket",
         "label": "Share",
         "title": "Share Project",
