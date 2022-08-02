@@ -1,5 +1,5 @@
 {
-  "name": "webassembly-studio-app",
+  "name": "@cdk-web/ode-example-app",
   "scripts": {
     "start": "node server.js",
     "eject-templates": "shx cp -R ./node_modules/webassembly-studio/templates public/templates"
